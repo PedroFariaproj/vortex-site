@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { ExternalLink, Github } from 'lucide-react';
+import { ExternalLink, Code2 } from 'lucide-react';
 
 interface ProjectCard {
   title: string;
@@ -107,7 +107,7 @@ export default function PortfolioSection() {
                     href={project.github}
                     className="flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-800 text-slate-300 text-sm font-semibold hover:bg-slate-700 transition-colors"
                   >
-                    <Github size={16} />
+                    <Code2 size={16} />
                     Código
                   </a>
                 )}
